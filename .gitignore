@@ -1,0 +1,11 @@
+.settings
+.project
+.classpath
+.idea
+.vscode
+logs
+lib
+*.exe
+*.exe~
+*.tmp
+*.tar.gz
