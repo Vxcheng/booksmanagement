@@ -5,7 +5,7 @@ import (
 	"github.com/astaxie/beego/orm"
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
-	"booksmanagementSys/models"
+	"ownergit/booksmanagement/models"
 )
 
 func DbInit() {

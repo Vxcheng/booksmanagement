@@ -3,8 +3,8 @@ package controllers
 import (
 	"encoding/json"
 	"fmt"
-	"booksmanagementSys/models"
-	"booksmanagementSys/services"
+	"ownergit/booksmanagement/models"
+	"ownergit/booksmanagement/services"
 
 
 	"github.com/astaxie/beego"

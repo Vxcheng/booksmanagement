@@ -8,7 +8,7 @@
 package routers
 
 import (
-	"booksmanagementSys/controllers"
+	"ownergit/booksmanagement/controllers"
 
 	"github.com/astaxie/beego"
 )

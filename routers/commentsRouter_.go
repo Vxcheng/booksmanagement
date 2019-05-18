@@ -7,7 +7,7 @@ import (
 
 func init() {
 
-    beego.GlobalControllerRouter["booksmanagementSys/controllers:BooksController"] = append(beego.GlobalControllerRouter["booksmanagementSys/controllers:BooksController"],
+    beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:BooksController"] = append(beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:BooksController"],
         beego.ControllerComments{
             Method: "Post",
             Router: `/`,
@@ -16,7 +16,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["booksmanagementSys/controllers:BooksController"] = append(beego.GlobalControllerRouter["booksmanagementSys/controllers:BooksController"],
+    beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:BooksController"] = append(beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:BooksController"],
         beego.ControllerComments{
             Method: "GetAll",
             Router: `/`,
@@ -25,7 +25,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["booksmanagementSys/controllers:BooksController"] = append(beego.GlobalControllerRouter["booksmanagementSys/controllers:BooksController"],
+    beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:BooksController"] = append(beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:BooksController"],
         beego.ControllerComments{
             Method: "GetOne",
             Router: `/:bookid`,
@@ -34,7 +34,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["booksmanagementSys/controllers:BooksController"] = append(beego.GlobalControllerRouter["booksmanagementSys/controllers:BooksController"],
+    beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:BooksController"] = append(beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:BooksController"],
         beego.ControllerComments{
             Method: "Put",
             Router: `/:bookid`,
@@ -43,7 +43,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["booksmanagementSys/controllers:BooksController"] = append(beego.GlobalControllerRouter["booksmanagementSys/controllers:BooksController"],
+    beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:BooksController"] = append(beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:BooksController"],
         beego.ControllerComments{
             Method: "Delete",
             Router: `/:bookid`,
@@ -52,7 +52,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["booksmanagementSys/controllers:BooksController"] = append(beego.GlobalControllerRouter["booksmanagementSys/controllers:BooksController"],
+    beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:BooksController"] = append(beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:BooksController"],
         beego.ControllerComments{
             Method: "BorrowBook",
             Router: `/borrowbook`,
@@ -61,7 +61,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["booksmanagementSys/controllers:BooksController"] = append(beego.GlobalControllerRouter["booksmanagementSys/controllers:BooksController"],
+    beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:BooksController"] = append(beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:BooksController"],
         beego.ControllerComments{
             Method: "ReturnBook",
             Router: `/returnbook`,
@@ -70,7 +70,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["booksmanagementSys/controllers:LoginController"] = append(beego.GlobalControllerRouter["booksmanagementSys/controllers:LoginController"],
+    beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:LoginController"] = append(beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:LoginController"],
         beego.ControllerComments{
             Method: "Post",
             Router: `/`,
@@ -79,7 +79,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["booksmanagementSys/controllers:LogoutController"] = append(beego.GlobalControllerRouter["booksmanagementSys/controllers:LogoutController"],
+    beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:LogoutController"] = append(beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:LogoutController"],
         beego.ControllerComments{
             Method: "Post",
             Router: `/:id`,
@@ -88,7 +88,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["booksmanagementSys/controllers:LogsController"] = append(beego.GlobalControllerRouter["booksmanagementSys/controllers:LogsController"],
+    beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:LogsController"] = append(beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:LogsController"],
         beego.ControllerComments{
             Method: "GetAll",
             Router: `/`,
@@ -97,7 +97,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["booksmanagementSys/controllers:LogsController"] = append(beego.GlobalControllerRouter["booksmanagementSys/controllers:LogsController"],
+    beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:LogsController"] = append(beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:LogsController"],
         beego.ControllerComments{
             Method: "Addlog",
             Router: `/`,
@@ -106,7 +106,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["booksmanagementSys/controllers:LogsController"] = append(beego.GlobalControllerRouter["booksmanagementSys/controllers:LogsController"],
+    beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:LogsController"] = append(beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:LogsController"],
         beego.ControllerComments{
             Method: "GetById",
             Router: `/:id`,
@@ -115,7 +115,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["booksmanagementSys/controllers:LogsController"] = append(beego.GlobalControllerRouter["booksmanagementSys/controllers:LogsController"],
+    beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:LogsController"] = append(beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:LogsController"],
         beego.ControllerComments{
             Method: "Delete",
             Router: `/:id`,
@@ -124,7 +124,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["booksmanagementSys/controllers:RegistorController"] = append(beego.GlobalControllerRouter["booksmanagementSys/controllers:RegistorController"],
+    beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:RegistorController"] = append(beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:RegistorController"],
         beego.ControllerComments{
             Method: "Get",
             Router: `/`,
@@ -133,7 +133,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["booksmanagementSys/controllers:RegistorController"] = append(beego.GlobalControllerRouter["booksmanagementSys/controllers:RegistorController"],
+    beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:RegistorController"] = append(beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:RegistorController"],
         beego.ControllerComments{
             Method: "Post",
             Router: `/`,
@@ -142,7 +142,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["booksmanagementSys/controllers:UserController"] = append(beego.GlobalControllerRouter["booksmanagementSys/controllers:UserController"],
+    beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:UserController"] = append(beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:UserController"],
         beego.ControllerComments{
             Method: "Get",
             Router: `/index`,
@@ -151,7 +151,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["booksmanagementSys/controllers:UserController"] = append(beego.GlobalControllerRouter["booksmanagementSys/controllers:UserController"],
+    beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:UserController"] = append(beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:UserController"],
         beego.ControllerComments{
             Method: "Login",
             Router: `/login`,
@@ -160,7 +160,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["booksmanagementSys/controllers:UserController"] = append(beego.GlobalControllerRouter["booksmanagementSys/controllers:UserController"],
+    beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:UserController"] = append(beego.GlobalControllerRouter["ownergit/booksmanagement/controllers:UserController"],
         beego.ControllerComments{
             Method: "Register",
             Router: `/register`,

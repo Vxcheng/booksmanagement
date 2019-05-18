@@ -9,7 +9,7 @@ import (
 import (
 	"encoding/json"
 	"fmt"
-	"booksmanagementSys/models"
+	"ownergit/booksmanagement/models"
 )
 
 type LogsController struct {

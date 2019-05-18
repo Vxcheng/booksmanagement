@@ -4,7 +4,7 @@ package controllers
 import (
 	_ "time"
 
-	"booksmanagementSys/models"
+	"ownergit/booksmanagement/models"
 
 	"encoding/json"
 	"github.com/astaxie/beego"

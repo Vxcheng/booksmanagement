@@ -1,10 +1,11 @@
 .settings
 .project
 .classpath
-.idea
-.vscode
+.idea/
+.vscode/
 logs
 lib
+*.log
 *.exe
 *.exe~
 *.tmp

@@ -2,7 +2,7 @@ package services
 
 import (
 	"log"
-	"booksmanagementSys/models"
+	"ownergit/booksmanagement/models"
 	"strconv"
 	"time"
 

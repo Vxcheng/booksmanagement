@@ -3,7 +3,7 @@
 package controllers
 
 import (
-	"booksmanagementSys/models"
+	"ownergit/booksmanagement/models"
 	"crypto/md5"
 	"encoding/hex"
 	"encoding/json"
